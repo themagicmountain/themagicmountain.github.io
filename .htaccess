@@ -1,0 +1,7 @@
+AuthName "One still does not simply"
+AuthType Basic
+AuthUserFile /home/fellowship/.htpasswd
+
+<Files "party.html">
+Require valid-user
+</Files>
